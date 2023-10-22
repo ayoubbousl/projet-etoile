@@ -1,0 +1,260 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.header .main-navss.nav main-nav{
+position: fixed;
+z-index: 900;
+}
+.navs ul {
+    margin-top: 1PX;
+}
+
+.navs li {
+    display: inline;
+    
+}
+
+.navs a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 2px solid  rgb(209, 204, 205);
+    
+}
+
+.main-nav li {
+    padding: 0 4%;
+}
+
+.navs a:hover {
+    background-color: rgba(20, 19, 59, 0.3)
+}
+.main-navss{
+    background-color: #d71a21;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 33px;
+    height: 80PX;
+    
+    
+}
+.logo-ess{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.main5{
+    width: 90%;
+    background: #d71a21;
+    margin-top: 20PX;
+    margin-left: 100PX;
+
+}
+.swiper{
+    width: 100%;
+    height: 40%;
+}
+.swiper-slide img{
+    width: 100%;
+
+}
+.nav li a{
+    margin-top: 50PX;
+}
+.main{
+    background-image: url(img/stade.jpg);
+    margin-top: -10px;
+    height: 750PX;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 50PX;
+    padding: 40PX;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardz {
+    background-color: #940a0a;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.cardz:hover {
+    transform: scale(1.1);
+}
+
+.cardz .image{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top:-40PX;
+}
+.info p{
+    color: #ffffff;
+}
+
+.projects {
+    background-color: #000016;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #b20404;
+    border: 1px solid #980909;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #dc0714;
+    font-style: italic;
+    font-weight: 1000;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    padding: 1rem;
+    
+    
+}
+
+
+.more-details:hover {
+    color: #0d0322;
+}
+
+.contact .image{
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #e4e4e4;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+.info p{
+    color: rgb(77, 10, 10);
+    text-align: center;
+}
+.STORE {
+    background-color: #181733;
+    margin-top: -10PX;
+    height: 930PX;
+}
+
+.main2 .flex-contentz {
+    margin-top: -870px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.STORE-card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    min-height: 14em;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.4s ease;
+    height: 45em;
+    margin-top: -20PX;
+    
+}
+
+.STORE-card:hover {
+   transform: scale(1.1);
+}
+
+.STOREt-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.STORE-image img{
+    width: 100%
+}
+
+.STORE-info {
+    padding: 1em;
+}
+
+.STORE-title h2{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 30px;
+}

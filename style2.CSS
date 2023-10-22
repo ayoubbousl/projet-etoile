@@ -1,0 +1,132 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+}
+.header .main-navss.nav main-nav{
+    position: fixed;
+    z-index: 900;
+    }
+    .nav ul {
+        margin-top: 1PX;
+    }
+    
+    .nav li {
+        display: inline;
+        
+    }
+    
+    .nav a {
+        display: inline-block;
+        padding: .5em;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-left: 10px;
+        
+    }
+    
+    .main-nav {
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: lighter;
+        border-bottom: 2px solid  rgb(209, 204, 205);
+        
+    }
+    
+    .main-nav li {
+        padding: 0 4%;
+    }
+    
+    .nav a:hover {
+        background-color: rgba(20, 19, 59, 0.3)
+    }
+    .main-navss{
+        background-color: #d71a21;
+        background-blend-mode: multiply;
+        background-size: cover;
+        padding-bottom: 33px;
+        height: 80PX;
+        
+        
+    }
+    .image22 .shoe{
+        margin-top: 0PX;
+    }
+    /* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #efe9e9;
+    border: 5px solid #5e0404;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.price {
+    color:#d71a21;
+    font-size: 28px;
+}
+
+button {
+    background-color:#d71a21;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color:#d71a21;
+}
